@@ -1,0 +1,30 @@
+.container{
+    display : flexbox;
+    border: 5px;
+    border-radius: 5ch;
+    font-size: 15px;
+    padding: 95px;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin-left: 700px;
+    background-color:cadetblue;
+  }
+  body{
+    background-image: url(https://st.redbus.in/Images/India/ContextualLogin/generic_banner_Ind.png);
+    background-repeat: no-repeat;
+    background-size:  60% 100%;
+  }
+  .green {
+    background-color: green;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  option{
+    padding:700px;
+  }
+  
+      
+    
+  

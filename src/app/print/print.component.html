@@ -1,0 +1,42 @@
+<app-header> </app-header>
+<body>
+<form  [formGroup]="val1"  (submit)="fnc()">
+    <div class="form-row">
+        <div class="col-lg-7">
+            <strong><label for="">Name</label></strong>
+            <input id="name" class="form-control" type="text" required minlength="5" placeholder="Name"formControlName="v1" >
+        </div>
+    </div><br>
+    <!-- <div class="form-row">
+        <div class="col-lg-7">
+            <strong><label for="">Age</label></strong>
+            <input id="age" class="form-control" type="number" required  placeholder="Age" formControlName = "v2">
+        </div>
+    </div><br> -->
+    <div class="form-row">
+        <div class="col-lg-7">
+            <strong><label for="">Email</label></strong>
+            <input   id="email"class="form-control "type="text" required placeholder="Email" formControlName = "v3">
+        </div>
+    </div>
+        <br>
+        <div class="form-row">
+            <div class="col-lg-7">
+                <strong><label for="">Phone Number</label></strong>
+            <input id="phoneno" class="form-control "type="text" placeholder="Phone no" required minlength="10"   maxlength="10" formControlName = "v4">
+            </div>
+        </div>
+        <br>
+        
+        <div class="form-row" class="text-center">
+            <div class="col-lg-7">
+                <button type="submit" class="btn btn-primary"  > Submit </button>
+            </div>
+        </div><br>  
+</form>
+
+
+<!-- <button (click)="fnc()"> Test </button> -->
+</body>
+<app-footer></app-footer>
+ 

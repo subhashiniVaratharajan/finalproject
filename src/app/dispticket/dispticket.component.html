@@ -1,0 +1,38 @@
+<app-header></app-header>
+
+<body class="demo">
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone No</th>
+        <th scope="col">Seat No</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>1</th>
+        <th>{{valu.v1.slice(1,valu.v1.length-1)}}</th>
+        <!-- <th>{{valu.v5}}</th> -->
+        <th>{{valu.v2.slice(1,valu.v2.length-1)}}</th>
+        <th>{{valu.v3.slice(1,valu.v3.length-1)}}</th>
+        <th>{{valu.v4.slice(1,valu.v4.length-1)}}</th>
+        
+        <th scope="row">{{arr}}</th>
+        
+      </tr>
+      
+      
+    </tbody>
+  </table>
+  <div class="bt">
+    <a routerLink="" class="btn btn-success">LOGOUT!</a>
+  </div>
+ 
+</body>
+
+  

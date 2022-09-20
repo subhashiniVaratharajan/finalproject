@@ -1,0 +1,25 @@
+.c1{
+    
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap: .5em;
+   
+    box-sizing: box;  
+    
+    background-color:beige;
+   
+    width:600px;
+    padding:60px;
+    padding-left: 50px;
+    margin-left: 330px;
+    margin-top:10px;
+}
+
+#dup{
+  font-weight: bold;
+}
+
+.first{
+    background-color:lightblue;
+
+}

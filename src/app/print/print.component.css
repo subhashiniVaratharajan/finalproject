@@ -1,0 +1,19 @@
+.con{
+    display: inline-block;
+    width: 700px;
+    
+    border: 5px solid ;
+  box-sizing: box;  
+  background-color:bisque; 
+  
+}
+input{
+  padding: 10px;
+}
+body{
+  padding-top: 85px;
+   padding-left: 400px;
+   padding-right:10px;
+   padding-bottom :85px;
+   background-color:lightblue;
+}

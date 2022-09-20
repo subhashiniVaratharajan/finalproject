@@ -1,0 +1,32 @@
+
+<body class="first">
+    <app-header></app-header>
+<br>
+<br>
+<h1  id="dup" class="text-center" style="margin-bottom:40px;">BOOK YOUR SEATS</h1>
+
+
+<div *ngIf="(ctr==0)">
+
+    <h5 class="text-center text-danger"> ***Please select a ticket</h5>
+     
+    
+ </div>
+<div id="demo"    class="c1" >
+    <span class="c2" *ngFor="let i of tick" > 
+    
+    <button class="btn btn-success"   style=" transition: 0.3s ease-in-out;
+
+    transform: scale(1.1);" [ngStyle]="{'background-color': this.selectedSeats.includes(i.id)? 'red' : 'default'}" (click)="count(i.id)">{{i.seatNo}}</button>
+</span>
+  
+    </div>
+    <br>
+    <div class="text-center">
+    <button  id="prime" class="btn btn-success" routerLink="/print" >Confirm {{ctr}} Ticket</button>
+    
+</div>
+   <br>
+   <br>     
+</body> 
+<app-footer></app-footer>

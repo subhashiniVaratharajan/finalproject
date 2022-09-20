@@ -1,0 +1,55 @@
+<app-header></app-header>
+<br>
+<br>
+<body>
+  
+
+<div class="container">
+<div>
+    <label for="starting place" ><b>Choose a Boarding point</b> &nbsp;</label>
+
+<b><select name="Enter Starting Place" id="from">
+  <option value="Chennai">Chennai</option>
+  <option value="Coimbatore">Coimbatore</option>
+  <option value="Salem">Salem</option>
+  <option value="Madurai">Madurai</option>
+  <option value="Thiruchirapalli">Thiruchirapalli</option>
+  <option value="Vellore">Vellore</option>
+  <option value="KarimNagar">Karim Nagar</option>
+</select></b>
+<br>
+<br>
+<label for="destination place" required><b>Choose a Destination point </b>&nbsp;</label>
+
+<select name="Enter desination " id="from">
+  <option value="Coimbatore">Coimbatore</option>
+  <option value="Chennai">Chennai</option>
+ 
+  <option value="Salem">Salem</option>
+  <option value="Madurai">Madurai</option>
+  <option value="Thiruchirapalli">Thiruchirapalli</option>
+  <option value="Vellore">Vellore</option>
+  <option value="KarimNagar">Karim Nagar</option>
+</select>
+
+</div>
+<br>
+<form action="/action_page.php">
+    <label for="departing date" required><b>Departing Date</b> &nbsp;</label>
+  
+    <input type="date" id="departdate" name="Departing Date" required class="box">
+    
+  </form>
+  <br>
+
+  <button type="button" class="btn btn-success"   routerLink="/res">Search Bus</button>
+ 
+
+
+
+</div>
+</body>
+<app-footer></app-footer>
+
+
+
