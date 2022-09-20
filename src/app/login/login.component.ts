@@ -60,9 +60,8 @@ export class LoginComponent implements OnInit {
     if (v1 == JSON.stringify(this.lf.value.pw)) {
       console.log('valid');
      this.serv.login = true
-         this.serv.user =
-           JSON.stringify(this.lf.value.name1).slice(1, 6) + '....';
-      this.router.navigate(['products']);
+       
+      this.router.navigate(['bus']);
     }
     else {
       alert('password / email is wrong ')

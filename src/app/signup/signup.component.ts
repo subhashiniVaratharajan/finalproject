@@ -65,7 +65,7 @@ export class SignupComponent implements OnInit {
     );
     this.serv.login = true;
     this.serv.user = JSON.stringify(this.snup.value.mail1).slice(1,6)+"....";
-    this.router.navigate(['products']);
+    this.router.navigate(['bus']);
   }
 }
 
