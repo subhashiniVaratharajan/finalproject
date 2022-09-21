@@ -64,7 +64,7 @@ export class LoginComponent implements OnInit {
       this.router.navigate(['bus']);
     }
     else {
-      alert('password / email is wrong ')
+      alert('Invalid credentials...Please enter correct information ')
       this.router.navigate(['login']);
     }
   }
